@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>회원가입</legend>
+        <table>
+          <tr>
+            <th><label for="user_id">사용자 ID</label></ㅅ>
+            <td><input type="text" id="user_id" /></td>
+          </tr>
+          <tr>
+            <th><label for="pw">비밀번호</label></th>
+            <td><input type="password" id="pw" /></td>
+          </tr>
+          <tr>
+            <th><label for="pw_check">비밀번호 확인</label></th>
+            <td><input type="password" id="pw_check" /></td>
+          </tr>
+          <tr>
+            <th><label for="user_name">이름</label></th>
+            <td><input type="text" id="user_name" /></td>
+          </tr>
+          <tr>
+            <th>성별</th>
+            <td>
+              <input id="man" name="gender" value="m" type="radio" />
+              <label for="man">남</label>
+              <input id="woman" name="gender" value="w" type="radio" />
+              <label for="woman">여</label>
+            </td>
+          </tr>
+          <tr>
+            <th>취미</th>
+            <td>
+              <input id="soccer" type="checkbox" />
+              <label for="soccer">축구</label>
+              <input id="baseball" type="checkbox" />
+              <label for="baseball">야구</label>
+              <input id="valley" type="checkbox" />
+              <label for="valley">배구</label>
+              <input id="basketball" type="checkbox" />
+              <label for="basketball">농구</label>
+            </td>
+          </tr>
+          <tr>
+            <th><label for="mail">e-mail</label></th>
+            <td><input id="mail" type="email" value="test@abc.com"></td>
+          </tr>
+          <tr>
+            <th>역할</th>
+            <td>
+                <select>
+                    <option>관리자</option>
+                    <option>Admin</option>
+                    <option>일반회원</option>
+                </select>
+            </td>
+          </tr>
+        </table>
+        <input type="submit" value="확인" />
+        <input type="reset" value="다시쓰기" />
+      </fieldset>
+    </form>
+  </body>
+</html>
