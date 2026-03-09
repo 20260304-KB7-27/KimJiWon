@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        width: 960px;
+        margin: 0 auto;
+        display: flex;
+      }
+
+      #menu {
+        width: 260px;
+      }
+
+      #section {
+        width: 700px;
+      }
+
+      @media screen and (max-width: 767px) {
+        body {
+          width: auto;
+          flex-direction: column;
+        }
+        #menu {
+          width: auto;
+        }
+
+        #section {
+          width: auto;
+        }
+      }
+
+      @media screen and (max-width: 260px) {
+      }
+    </style>
+  </head>
+  <body>
+    <div id="menu">
+      <ul>
+        <li>메뉴A</li>
+        <li>메뉴B</li>
+        <li>메뉴C</li>
+      </ul>
+    </div>
+    <div id="section">
+      <h1>Lorem ipsum dolor sit amet.</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+        doloribus ullam nisi deleniti, incidunt amet aliquid architecto placeat
+        eveniet culpa modi excepturi et neque eaque quasi error deserunt
+        blanditiis omnis sit quidem fuga? Atque ex ipsa officiis quod laborum ad
+        consequuntur itaque impedit fuga, labore nemo? Labore omnis porro ut
+        officia tempora, optio doloribus eius eveniet sapiente corporis!
+        Laborum, quisquam.
+      </p>
+    </div>
+  </body>
+</html>
