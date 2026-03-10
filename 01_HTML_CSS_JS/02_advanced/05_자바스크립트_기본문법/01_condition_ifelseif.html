@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      let date = new Date();
+      let hour = date.getHours();
+      let message = '';
+
+      if (hour < 5) {
+        message = '잠을 자렴...';
+      } else if (hour >= 5 && hour < 7) {
+        message = '준비';
+      } else if (hour >= 7 && hour < 9) {
+        message = '출근';
+      } else if (hour >= 9 && hour < 12) {
+        message = '빈둥 빈둥';
+      } else if (hour >= 12 && hour < 14) {
+        message = '식사';
+      } else {
+        message = '여러 가지 업무를 수행합니다.';
+      }
+
+      alert(message);
+    </script>
+  </head>
+
+  <body></body>
+</html>
