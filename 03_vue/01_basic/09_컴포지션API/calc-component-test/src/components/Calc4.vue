@@ -16,8 +16,11 @@ export default {
   setup() {
     const state = reactive({ x: 10, y: 20 });
 
+    // computed : 의존하는 반응형 데이터가 변경될 때만 자동으로 재계산
+    // => 결과가 캐싱 
+    // 읽기 전용 
     const result = computed(() => {
-      return state.x + state.y;
+      return state.x + state.y; // 결과 값이 바뀌었을 때
     });
 
     return { state, result };

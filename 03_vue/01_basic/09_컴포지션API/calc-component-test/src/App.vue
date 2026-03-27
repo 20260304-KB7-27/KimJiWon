@@ -1,7 +1,20 @@
 <template>
   <div>
-    <!-- <Calc /> -->
-    <Calc8 />
+    <h1>Calc</h1>
+    <Calc />
+    <hr />
+    <h1>Calc2</h1>
+    <Calc2 />
+    <hr />
+    <h1>Calc3</h1>
+    <Calc3 />
+    <hr />
+    <h1>Calc4</h1>
+    <Calc4 />
+    <hr />
+    <h1>Calc5</h1>
+    <Calc5 />
+
   </div>
 </template>
 
