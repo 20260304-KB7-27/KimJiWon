@@ -1,0 +1,10 @@
+.container {
+  border: 20x solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 80px 80px;
+}
+
+.container > div {
+  border: 1px solid gray;
+}
